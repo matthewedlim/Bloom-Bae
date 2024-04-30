@@ -1,0 +1,57 @@
+[
+    {
+        "id": 1,
+        "name": "Red and Black",
+        "price": 80,
+        "image": "img/RED BLACK.png"
+    },
+
+    {
+        "id": 2,
+        "name": "White and Black",
+        "price": 150,
+        "image": "img/WHITE BLACK.png"
+    },
+
+    {
+        "id": 3,
+        "name": "Black and Gold",
+        "price": 200,
+        "image": "img/Black Gold.png"
+    },
+
+    {
+        "id": 4,
+        "name": "Glitter Pink",
+        "price": 250,
+        "image": "img/Pink glitter.png"
+    },
+
+    {
+        "id": 5,
+        "name": "Red Rose",
+        "price": 500,
+        "image": "img/Red Rose.png"
+    },
+    
+    {
+        "id": 6,
+        "name": "Super Blue",
+        "price": 170,
+        "image": "img/Super Blue.png"
+    },
+
+    {
+        "id": 7,
+        "name": "Matcha White",
+        "price": 300,
+        "image": "img/White Matcha.png"
+    },
+
+    {
+        "id": 8,
+        "name": "White Pink",
+        "price": 200,
+        "image": "img/White Pink.png"
+    }
+]

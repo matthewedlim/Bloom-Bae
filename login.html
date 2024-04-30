@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bloom Bae - Account Center</title>
+    <link
+      rel="shortcut icon"
+      href="img/img-icons/flower_14352261.png"
+      type="bloom bae logo"
+    />
+    <link rel="stylesheet" href="src/style/style.css" />
+    <script src="https://kit.fontawesome.com/8065999f8e.js" crossorigin="anonymous"></script>
+  </head>
+  <body class="">
+    <header>
+      <a class="logo" href="#home">
+        <img
+          src="../img/img-icons/flower_14352261.png"
+          alt="brand logo"
+          width="512"
+          height="512"
+        />Bloom <span class="co">Bae</span></a
+      >
+      <nav>
+        <ul class="nav-links">
+          <li><a href="src/index.html" class="active">Home</a></li>
+          <li><a href="src/index.html#about" class="active">About</a></li>
+          <li><a href="#" class="active">Store</a></li>
+          <li><a href="src/index.html#contact" class="active">Contact</a></li>
+        </ul>
+      </nav>
+        <div class="icon-cart">
+          <svg dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 4h1.5L9 16m0 0h8m-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-8.5-3h9.25L19 7H7.312"/>
+          </svg>
+          <span>0</span>
+      </div>
+      <button title="Account" type="button" class="icon-button-cart">
+        <span class="button-icon">
+          <ion-icon name="person-circle-outline"></ion-icon>
+        </span>
+      </button>
+    </header>
+
+    <main>
+      <div class="login-container">
+        <div class="form-box">
+          <h1 id="title">Signup</h1>
+          <form>
+            <div class="input-group">
+              <div class="log-input-field" id="fnameField">
+                <i class="fa-solid fa-user"></i>
+                <input type="text" placeholder="First Name">
+              </div>
+
+              <div class="input-group">
+                <div class="log-input-field" id="lnameField">
+                  <i class="fa-solid fa-user"></i>
+                  <input type="text" placeholder="Last Name">
+                </div>
+
+                <div class="input-group">
+                  <div class="log-input-field" id="address">
+                    <i class="fa-solid fa-location-dot"></i>
+                  <input type="text" placeholder="Address">
+                  </div>
+
+              <div class="log-input-field">
+                <i class="fa-solid fa-envelope"></i>
+                <input type="email" id="email" name="email" placeholder="Email" required>
+              </div>
+
+              <div class="log-input-field">
+                <i class="fa-solid fa-lock"></i>
+                <input type="password" id="password" name="password" placeholder="Password">
+              </div>
+
+              <p>Forgot password? <a href="#">Click Here!</a></p>
+            </div>
+            <div class="log-btn-field">
+              <button type="button" id="signupBtn">Sign up</button>
+              <button type="button" id="signinBtn" class="disable">Sign in</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="footer-container">
+        <div class="brand">
+          <img
+            src="../img/img-icons/flower_14352261.png"
+            alt="brand logo"
+            width="512"
+            height="512"
+          />
+          <span>Bloom <span class="bae">Bae</span></span>
+        </div>
+
+        <div class="footer-nav-links">
+          <nav>
+            <ul>
+              <span>Browse</span>
+              <li><a href="src/index.html#home">Home</a></li>
+              <li><a href="src/index.html#about">About us</a></li>
+              <li><a href="store.html">Store</a></li>
+              <li><a href="src/index.html#contact">Contact us</a></li>
+            </ul>
+          </nav>
+        </div>
+
+        <div class="footer-nav-links">
+          <nav>
+            <ul>
+              <span>Services</span>
+              <li><a href="../store.html#pre-made">Pre-made Bouquet</a></li>
+              <li><a href="../store.html#custom-made">Custom Bouquet</a></li>
+            </ul>
+          </nav>
+        </div>
+
+        <div class="footer-nav-links">
+          <nav>
+            <ul>
+              <span>Contacts</span>
+              <li><ion-icon name="location"></ion-icon> Zamboanga City</li>
+              <li><ion-icon name="call"></ion-icon> +63 935-485-2478</li>
+              <li><ion-icon name="mail"></ion-icon> bloombae@gmail.com</li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <div class="copyright-container">
+        <span class="copyright"
+          >&copy;Copyright 2024 - Designed by Matthew Ed Lim</span
+        >
+      </div>
+    </footer>
+    <script src="src/login.js"></script>
+    <script src="src/validation.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
